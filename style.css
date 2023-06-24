@@ -1,0 +1,54 @@
+/*centralizar no meio da tela*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*borda ao redor do formulário*/
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+}
+
+/* user e pass um embaixo do outro */
+form label {
+    display: block;
+    font: 14px sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+
+/* espaçamento entre os campos */
+form input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: center;
+}
+
+/* botão */
+
+form button {
+    display: flex;
+    background-color: #1abc9c;
+    border: 0;
+    color: #fff;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #1abc9c;
+}
