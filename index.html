@@ -1,20 +1,72 @@
 <!DOCTYPE html>
+<!--
+    explicando a linha 1: <!DOCTYPE html> é uma instrução para o navegador, que indica que o documento é um documento HTML5.
+-->
 <html lang="en">
+<!--
+    explicando a linha 3: <html lang="en"> é uma instrução para o navegador, que indica que o idioma do documento é inglês.
+        caso o idioma do documento seja português, a instrução seria <html lang="pt-br">
+-->
 <head>
+<!--
+    explicando a linha 6: <head> é uma instrução para o navegador, que indica que o conteúdo entre as tags <head> e </head> é o cabeçalho do documento.
+-->
     <meta charset="UTF-8">
+    <!--
+        explicando a linha 9: <meta charset="UTF-8"> é uma instrução para o navegador, que indica que o documento está codificado em UTF-8.
+            UTF-8 é um formato de codificação de caracteres, que permite que o documento seja escrito em qualquer idioma.
+    -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        explicando a linha 13: <meta name="viewport" content="width=device-width, initial-scale=1.0"> é uma instrução para o navegador, que indica que o documento deve ser renderizado de acordo com o tamanho da tela do dispositivo.
+    -->
     <title>Login</title>
+    <!--
+        explicando a linha 16: <title>Login</title> é uma instrução para o navegador, que indica que o título do documento é "Login".
+    -->
+
     <link rel="stylesheet" href="style.css">
+    <!--
+        explicando a linha 20: <link rel="stylesheet" href="style.css"> é uma instrução para o navegador, que indica que o documento deve importar o arquivo "style.css".
+    -->
+
 </head>
 <body>
+<!--
+    explicando a linha 24: <body> é uma instrução para o navegador, que indica que o conteúdo entre as tags <body> e </body> é o corpo do documento.
+-->
     <main>
+    <!--
+        explicando a linha 28: <main> é uma instrução para o navegador, que indica que o conteúdo entre as tags <main> e </main> é o corpo principal do documento.
+    -->
         <h1>Login</h1>
+        <!--
+            explicando a linha 32: <h1>Login</h1> é uma instrução para o navegador, que indica que o conteúdo entre as tags <h1> e </h1> é um título de nível 1.
+            podem ser utilizados títulos de nível 1 a 6, sendo <h1> o maior e <h6> o menor.
+        -->
         <form>
+        <!--
+            explicando a linha 36: <form> é uma instrução para o navegador, que indica que o conteúdo entre as tags <form> e </form> é um formulário.
+        -->
             <label for="username">Username</label>
+            <!--
+                explicando a linha 40: <label for="username">Username</label> é uma instrução para o navegador, que indica que o conteúdo entre as tags <label> e </label> é um rótulo para o campo de entrada de texto com o id "username".
+            -->
             <input type="text" name="username" id="username" placeholder="Username">
+            <!--
+                explicando a linha 44: <input type="text" name="username" id="username" placeholder="Username"> é uma instrução para o navegador, que indica que o conteúdo entre as tags <input> e </input> é um campo de entrada de texto.
+                    o atributo "type" indica que o campo de entrada de texto deve aceitar apenas texto.
+                    o atributo "name" indica que o campo de entrada de texto deve ser identificado pelo nome "username".
+                    o atributo "id" indica que o campo de entrada de texto deve ser identificado pelo id "username".
+                    o atributo "placeholder" indica que o campo de entrada de texto deve exibir o texto "Username" como dica para o usuário.
+            -->
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="Password">
             <button type="submit">Login</button>
+            <!--
+                explicando a linha 52: <button type="submit">Login</button> é uma instrução para o navegador, que indica que o conteúdo entre as tags <button> e </button> é um botão.
+                    o atributo "type" indica que o botão deve ser um botão de envio de formulário.
+            -->
         </form>
     </main>
 </body>
